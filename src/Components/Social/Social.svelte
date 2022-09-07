@@ -14,7 +14,7 @@
           <!-- <span class="social-media-link">LinkedIn</span> -->
         </div>
         <div class="flex-social-item">
-          <a class="instagram" href="https://instagram.com/jmoussa.dev" rel="noopener noreferrer" target="_blank"><span>Instagram</span></a>
+          <a class="instagram" href="https://instagram.com/jmoussa.io" rel="noopener noreferrer" target="_blank"><span>Instagram</span></a>
           <!-- <span class="social-media-link">Instagram</span> -->
         </div>
         <div class="flex-social-item">
