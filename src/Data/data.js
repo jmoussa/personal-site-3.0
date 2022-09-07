@@ -33,8 +33,8 @@ const SERVICE_DATA = {
       URL: "images/services/development/development.jpg"
     },
     {
-      LABEL: "Project Management",
-      DESCRIPTION: "Primarily using an agile, SCRUM methodology, I have experience taking a (software) project from start to finish.",
+      LABEL: "Product Management",
+      DESCRIPTION: "Taking a customer centric, data driven approach to product development. Most of my experience comes with designing data centric sofware platforms backed by pipelines with various processing mechanisms.",
       URL: "images/services/project_management/project_management.jpg"
     }
   ]
