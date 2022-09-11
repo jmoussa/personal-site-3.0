@@ -11,7 +11,7 @@
     <h2 class="title text-center">{HEADING}</h2>
     <div class="row section-body">
       {#each ACCOMPLISHMENTS as list}
-        <div class="col-md-6 mystory">
+        <div class="col-md-8 mystory">
           <div>
             <h4>{list.TITLE}</h4>
             <p class="description">{list.DESCRIPTION}</p>
@@ -31,10 +31,12 @@
             </p>
           </div>
         </div>
+        <!--
         <div class="col-md-6 img2">
           <hr> 
-          <!-- <img src="{list.IMAGE_URL}" width="100vw" alt="{list.TITLE}"> -->
+          <img src="{list.IMAGE_URL}" width="100vw" alt="{list.TITLE}">
         </div>
+        -->
       {/each}
     </div>
   </div>
@@ -43,12 +45,17 @@
 <!----------------STYLE----------------------->
 <!------------------------------------------->
 <style scoped lang='scss'>
+
   $accent: #d447b9;
   hr {
     border: 1px solid $accent;
   }
+  .row {
+    justify-content: center;
+  }
   #mystory {
     padding-top: 100px;
+    align-items: center;
   }
   .mystory {
     padding: 3rem 2rem;
