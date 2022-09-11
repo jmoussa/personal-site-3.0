@@ -11,7 +11,7 @@ const NAVBAR_DATA = [
 const BANNER_DATA = {
   HEADING: "Joseph Moussa",
   DESCRIPTION:
-    "Architect | Engineer | Naturally Curious",
+    "Software Engineer | Naturally Curious",
   TWITTER_URL:
     "https://twitter.com/j__moussa",
   TWITTER_TAGLINE: "Add me on Twitter"
