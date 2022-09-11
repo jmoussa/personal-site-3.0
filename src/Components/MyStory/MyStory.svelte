@@ -48,7 +48,7 @@
 
   $accent: #d447b9;
   hr {
-    border: 1px solid $accent;
+    border-bottom: 1px solid $accent;
   }
   .row {
     justify-content: center;
@@ -61,10 +61,10 @@
     padding: 3rem 2rem;
     padding-left: 1.7rem;
     padding-right: 2.7rem;
-    border-right: 4px solid $accent;
-    border-left: 1px solid $accent;
-    border-top: 1px solid $accent;
-    border-bottom: 4px solid $accent;
+    // border-right: 4px solid $accent;
+    // border-left: 1px solid $accent;
+    border-top: 2px solid $accent;
+    // border-bottom: 4px solid $accent;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
