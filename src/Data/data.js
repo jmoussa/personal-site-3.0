@@ -51,10 +51,9 @@ const ABOUT_DATA = {
   BIRTHDAY: '1995-04-01',
   TRAITS_HEADER: "Outstanding qualities",
   TRAITS: [
-    "Strong technical skills and experience in building data-centric applications.",
-    "Prioritization of customer experience when building for scale.",
-    "Desire to establish long lasting business relationships.",
-    "Passion and general curiousity when designing and implementing software solutions."
+    "Strong technical skills and experience in building data-centric applications",
+    "Prioritization of customer experience when building for scale",
+    "Passion and general curiousity when designing and implementing software solutions"
   ]
 };
 const MYWORK_DATA = {
@@ -85,34 +84,33 @@ const MYWORK_DATA = {
         "Data Structures",
         "Computer Security",
         "Operating Systems",
-        "Computer Architecture",
-        "Studying because I enjoyed it and not for a number on a piece of paper",
+        "Computer Architecture"
       ],
       DESIGNATION: "B.A. in Information Technology & Informatics, (with a minor in Computer Science) '13-'18"
     },
     {
       TITLE: "Expansive Early Career",
       DESCRIPTION:
-        "In my short tenure as an engineer, I've had the priviledge of working on both large and small scale software platforms. Each taught me something specific and helped me get more acquainted with both the general process as well as the industry as a whole.\
-        ",
+        "In my short tenure as an engineer, I've had the priviledge of working on both large and small scale software platforms. Each taught me something specific and helped me get more acquainted with both the general process as well as the industry as a whole.",
       IMAGE_URL: "images/mystory3.jpg",
       ACC_DESC: "Experience",
       ACCOMPLISHMENTS: [
-        "AT&T gave me an opportunity to work on bleeding edge PoC technologies in the R&D department.",
-        "Vicasso (formerly Internet Creations) taught me about the traditional software development lifecycle and how to interact with project managers, other interdisciplinary team members, and the client.",
-        "Genomic Prediction is where I started designing and leading the development of data platforms and pipelines.",
+        "AT&T gave me an opportunity to work on bleeding edge PoC technologies in the R&D department",
+        "Vicasso (formerly Internet Creations) taught me about the traditional software development lifecycle and how to interact with project managers, other interdisciplinary team members, and the client",
+        "Genomic Prediction is where I started designing and leading the development of data platforms and pipelines",
       ],
       DESIGNATION: "Software Engineer at AT&T (student technical intern), Internet Creations, and Genomic Prediction"
     },
     {
       TITLE: "Moving Forward",
       DESCRIPTION:
-        "I am currently employed at The Walt Disney Company, where I work as an engineer on the consumer experience team tackling challenges related to content, and consumer experience.",
+        "I am currently employed at The Walt Disney Company, where I work as an engineer in the Media & Engertainment Division tackling challenges related to content, and shaping consumer experience.",
       IMAGE_URL: "images/mystory4.jpg",
       ACC_DESC: "Experience",
       ACCOMPLISHMENTS: [
-        "Engineer and improve on medium to large-scale data platforms for querying, enriching and storing data.",
-        "Design and architect custom data pipelines used to drive both long and short-term analytics using both batch and streaming techniques.",
+        "Refactor and improve on medium to large-scale data pipeline platforms for querying, enriching and storing data",
+        "Design and architect custom data pipelines used to drive both long and short-term analytics using both batch and streaming techniques",
+        "Document and communicate implementation and usage details in addition to system architecture documentation for fellow engineers"
       ],
       DESIGNATION: "Software Engineer II at The Walt Disney Company"
     }
