@@ -12,9 +12,8 @@
       <div class="col-md-6">
         <h1>{HEADING}</h1>
         <h3>{DESCRIPTION}</h3>
-        
+
         <!-- <a href={TWITTER_URL} target="_blank" class="light-color">
-          <i class="far fa-play-circle fa-2x watch-btn" />
           {TWITTER_TAGLINE}
         </a> -->
       </div>
@@ -27,6 +26,7 @@
 </section>
 <!------------------------------------------->
 <!----------------STYLE----------------------->
+
 <!------------------------------------------->
 <style>
   section {
@@ -35,7 +35,7 @@
 
   h1 {
     font-size: 52px;
-    font-weight: 350; 
+    font-weight: 350;
     margin-top: 100px;
     text-transform: uppercase;
   }
@@ -45,7 +45,6 @@
     /* text-transform: uppercase; */
   }
 
-  
   .img-fluid {
     height: auto;
     margin: 1rem;
@@ -54,4 +53,3 @@
     padding-bottom: 3rem;
   }
 </style>
-

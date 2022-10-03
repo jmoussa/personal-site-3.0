@@ -11,7 +11,7 @@ const NAVBAR_DATA = [
 const BANNER_DATA = {
   HEADING: "Joseph Moussa",
   DESCRIPTION:
-    "Software Engineer | Naturally Curious",
+    "Software Engineer",
   TWITTER_URL:
     "https://twitter.com/j__moussa",
   TWITTER_TAGLINE: "Add me on Twitter"
@@ -44,16 +44,16 @@ const ABOUT_DATA = {
   HEADING: "About Me",
   TITLE: "Who, Me?",
   IMAGE_URL: "images/network.png",
-  DESCRIPTION: "I'm an experienced software engineer with a specialization in data platforms or data-centric applications.  \
-    I have had the priviledge of working with both large and small companies/startups, as both a contractor and employee.\
-    I have a passion for technology and I'm always looking to learn new things.\
+  DESCRIPTION: "I'm an experienced software engineer with a specialization in data platforms and data-centric applications.  \
+    I have had the priviledge of working with both large and small companies/startups, as both a contractor and employee in teams of all sizes, and understand the interpersonal nuances when architecting a software solution.\
+    I have a passion for technology and a drive to research interesting solutions.\
     ",
   BIRTHDAY: '1995-04-01',
   TRAITS_HEADER: "Outstanding qualities",
   TRAITS: [
+    "Experience architecting and implementing small scale prototypes to large scale distributed cloud solutions",
     "Strong technical skills and experience in building data-centric applications",
-    "Prioritization of customer experience when building for scale",
-    "Passion and general curiousity when designing and implementing software solutions"
+    "Prioritization of consumer experience when building for scale"
   ]
 };
 const MYWORK_DATA = {
