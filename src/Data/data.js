@@ -29,7 +29,7 @@ const SERVICE_DATA = {
     {
       LABEL: "Software Development",
       DESCRIPTION:
-        "Most software platforms being built nowadays rely on large amounts of data flowing and interacting within the system, this can be done via batch or streaming, in SQL or NoSQL, cloud or *shudders* on-prem. I build platforms that allow for better management and leverage of data, enabling growth and further insights to be drawn from analytics.",
+        "Most software platforms being built nowadays rely on large amounts of data flowing and interacting within the system, this can be done via batch or streaming, in SQL or NoSQL, and with various scaling requirements. I build platforms that allow for better management and leverage of data, enabling growth and further insights to be drawn from analytics.",
       URL: "images/services/development/development.jpg"
     },
     {
