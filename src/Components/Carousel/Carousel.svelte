@@ -30,7 +30,7 @@
 
 <style scoped lang='scss'>
 	$default_background: #30343F;
-	$accent: #d447b9;
+	$accent: #d447ba;
 	.slider {
 		font-family: 'Lato', sans-serif;
 		scroll-snap-type: x mandatory;	
@@ -97,7 +97,6 @@
 		.github-button:hover {
 			a {
 				color: #FFFFFF;
-				
 				transform: scale(1.05);
 			}
 			background: $accent;
@@ -105,7 +104,7 @@
 
 		}
 		position: relative;
-		border: 3px solid $accent;
+		border: 4px solid $accent;
 		background-color: $default_background;
 	}
 	a {
