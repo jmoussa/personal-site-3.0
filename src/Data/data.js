@@ -29,12 +29,12 @@ const SERVICE_DATA = {
     {
       LABEL: "Software Development",
       DESCRIPTION:
-        "Most software platforms being built nowadays rely on large amounts of data flowing and interacting within the system. I build platforms that will allow for better management and leverage of that data, enabling growth.",
+        "Most software platforms being built nowadays rely on large amounts of data flowing and interacting within the system, this can be done via batch or streaming, in SQL or NoSQL, cloud or *shudders* on-prem. I build platforms that allow for better management and leverage of data, enabling growth and further insights to be drawn from analytics.",
       URL: "images/services/development/development.jpg"
     },
     {
       LABEL: "Product Management",
-      DESCRIPTION: "Taking a customer centric, data driven approach to product development. Most of my experience comes with designing data centric sofware platforms backed by pipelines with various processing mechanisms.",
+      DESCRIPTION: "Taking a customer centric, data driven approach to the product development lifecycle. My plain and simple approach to Product Management is to assess customer feedback and weave it into the development sprints. That's way easier said than done and there are too many variations of success to count, but it's a crucial part of making sure a product stays engaging and ultimately, successful.",
       URL: "images/services/project_management/project_management.jpg"
     }
   ]
