@@ -10,7 +10,8 @@ const NAVBAR_DATA = [
 ];
 const BANNER_DATA = {
   HEADING: "Joseph Moussa",
-  DESCRIPTION: "Software Engineer",
+  DESCRIPTION:
+    "I'm a software engineer specializing in data platforms and data-centric applications. Currently I'm focused on building data platforms at ",
   TWITTER_URL: "https://twitter.com/j__moussa",
   TWITTER_TAGLINE: "Add me on Twitter",
 };
@@ -41,18 +42,22 @@ const SERVICE_DATA = {
 
 const ABOUT_DATA = {
   HEADING: "About Me",
-  TITLE: "Who, Me?",
+  TITLE: "",
   IMAGE_URL: "images/network.png",
-  DESCRIPTION:
-    "I am a software engineer specializating in data platforms and data-centric applications. \
-    I have had the priviledge of working in both large and small firms, as both a contractor and employee in teams of all sizes, and understand the interpersonal nuances when architecting and implementing a software solution.\
-    I attribute my success to my passion for finding simple and elegant solutions to problems leveraging technology.\
-    ",
+  DESCRIPTION: [
+    "Hello, my name is Joe and I enjoy solving data-centric problems and if I have a (really good) excuse to build and use data-centric software applications as means to solve said problems, I'll probably do just that. \
+    My interests in software engineering materialized pretty late in my college years but I've always been interested in computers and the software that ran on them. \
+    Having grown up around the dawn of the Internet, I've always had a certain curiosity for the technical details of how data and information travels, from the network layer to the application layer, and all the way to the information layer and it's increasing role in facilitating how we interact with each other.",
+    "Fast-forward to today, and I've had the privilege of working in both large and small organizations, as both a contractor and an employee, in teams of various sizes. \
+    Throughout my time in the industry, I've gained tremendous understanding in the nuances and need for clear communication when architecting and implementing complex (and even simple) software solutions.\
+    I attribute my success to my passion for finding simple and elegant solutions to large scale problems, and, more importantly, the desire I have to communicate my solutions as clearly as possible to the correct audience.",
+  ],
   BIRTHDAY: "1995-04-01",
   TRAITS_HEADER: "Outstanding qualities",
   TRAITS: [
-    "Experience architecting and implementing small-scale prototypes to large-scale distributed cloud solutions",
+    "Experience architecting and taking small-scale prototypes to medium/large scale distributed cloud solutions",
     "Strong technical skills and experience in building data-centric applications",
+    "An high level understanding of engineering and product communications and documentation for both groups",
     "Prioritization of consumer experience when building for scale",
   ],
 };
@@ -64,7 +69,7 @@ const MYWORK_DATA = {
       DESCRIPTION:
         "Early on I was involved with music and marching band throughout high school, college, and in the independent circuit.\
         I played a variety of instruments but the one that took me the furthest was drums. \
-        I entered into the marching snare activites as a completely self-taught drummer. \
+        I entered into the marching snare activities as a completely self-taught drummer. \
         This experience and perspective shaped me to always do something passionately, with discipline, patience and to strive for excellence in everything.",
       IMAGE_URL: "images/mystory1.jpg",
       ACC_DESC: "Notable Moments",
@@ -93,7 +98,7 @@ const MYWORK_DATA = {
     {
       TITLE: "Expansive Early Career",
       DESCRIPTION:
-        "In my short tenure as an engineer, I've had the priviledge of working on both large and small scale software platforms. Each taught me something specific and helped me get more acquainted with both the general process as well as the industry as a whole.",
+        "In my short tenure as an engineer, I've had the privilege of working on both large- and small-scale software platforms. Each taught me something specific and helped me get more acquainted with both the general process as well as the industry as a whole.",
       IMAGE_URL: "images/mystory3.jpg",
       ACC_DESC: "Experience",
       ACCOMPLISHMENTS: [
@@ -105,15 +110,15 @@ const MYWORK_DATA = {
         "Software Engineer at AT&T (student technical intern), Internet Creations, and Genomic Prediction",
     },
     {
-      TITLE: "Moving Forward",
+      TITLE: "Currently",
       DESCRIPTION:
-        "I am currently employed at The Walt Disney Company, where I work as an engineer in the Media & Engertainment Division tackling challenges related to content, and shaping consumer experience.",
+        "I am currently employed at The Walt Disney Company, where I work as an engineer in the Media & Entertainment Division tackling challenges related to content, and shaping consumer experience.",
       IMAGE_URL: "images/mystory4.jpg",
       ACC_DESC: "Experience",
       ACCOMPLISHMENTS: [
-        "Refactor and improve on medium to large-scale data pipeline platforms for querying, enriching and storing data",
-        "Design and architect custom data pipelines used to drive both long and short-term analytics using both batch and streaming techniques",
-        "Document and communicate implementation and usage details in addition to system architecture documentation for fellow engineers",
+        "Developing medium to large-scale data platforms for collection, query, enrichment and storage of data for analytics and near real-time use cases",
+        "Designing and architect custom data pipelines used to drive both long and short-term analytics implementing both batch and streaming techniques",
+        "Documenting and communicating implementation and usage details in addition to system architecture documentation for engineering and product",
       ],
       DESIGNATION: "Software Engineer II at The Walt Disney Company",
     },
@@ -122,8 +127,7 @@ const MYWORK_DATA = {
 
 const SOCIAL_DATA = {
   HEADING: "Socials",
-  DESCRIPTION:
-    "Connect with me on social media. I post blog content whenever I feel like breaking down the method to my madness.",
+  DESCRIPTION: "Connect with me on social media.",
   IMAGES_LIST: [
     "images/instagram-icon.png",
     "images/twitter-icon.png",

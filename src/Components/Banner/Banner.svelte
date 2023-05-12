@@ -11,9 +11,9 @@
     <div class="row">
       <div class="col-md-6">
         <h1>{HEADING}</h1>
-        <h3>{DESCRIPTION}</h3>
+        <p>{DESCRIPTION} <a style="color:skyblue;" href="https://disney.com" target="_blank" rel="noopener noreferrer">Disney</a></p>
 
-        <!-- <a href={TWITTER_URL} target="_blank" class="light-color">
+        <!--<a href={TWITTER_URL} target="_blank" class="light-color">
           {TWITTER_TAGLINE}
         </a> -->
       </div>

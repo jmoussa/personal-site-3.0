@@ -20,7 +20,9 @@
     <div class="row section-body">
       <div class="col-md-6">
         <h3 class="title">{TITLE}</h3>
-        <p class="desc">{DESCRIPTION}</p>
+        {#each DESCRIPTION as desc}
+        <p class="desc">{desc}</p>
+        {/each}
         <br/> 
         <h5>{TRAITS_HEADER}</h5>
         <ul>
