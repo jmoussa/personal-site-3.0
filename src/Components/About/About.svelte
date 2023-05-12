@@ -47,6 +47,8 @@
   .desc {
     font-size: 16px;
     line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-word;
   }
   #about-me {
     padding-top: 100px;
