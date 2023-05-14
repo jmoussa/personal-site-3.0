@@ -100,7 +100,7 @@ const MYWORK_DATA = {
     {
       TITLE: "Expansive Early Career",
       DESCRIPTION:
-        "In my short tenure as an engineer, I've had the privilege of working on both large- and small-scale software platforms. Each taught me something specific and helped me get more acquainted with both the general process as well as the industry as a whole.",
+        "In my short tenure as an engineer, I've had the privilege of working on a wide array of teams. Each taught me something specific and helped me get more acquainted with both the general process as well as forming an idea of what programming in the industry is like.",
       IMAGE_URL: "images/mystory3.jpg",
       ACC_DESC: "Experience",
       ACCOMPLISHMENTS: [
