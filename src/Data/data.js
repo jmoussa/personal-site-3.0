@@ -47,7 +47,7 @@ const ABOUT_DATA = {
   TITLE: "About Me",
   IMAGE_URL: "images/banner.png",
   DESCRIPTION: [
-    "Hello, my name is Joe and I enjoy solving data-centric problems and if I have a (really good) excuse to build and use data-centric software applications as means to solve said problems, I'll probably do just that. \
+    "Hi, I'm Joe and I enjoy solving data-centric problems and if I have a (really good) excuse to build and use data-centric software applications as means to solve said problems, I'll probably do just that. \
     My interests in software engineering materialized pretty late in my college years but I've always been interested in computers and the software that ran on them. \
     Having grown up around the dawn of the Internet, I've always had a certain curiosity for the technical details of how data and information travels, from the network layer to the application layer, and all the way to the information layer and it's increasing role in facilitating how we interact with each other.",
     "Fast-forward to today, and I've had the privilege of working in both large and small organizations, as both a contractor and an employee, in teams of various sizes. \
