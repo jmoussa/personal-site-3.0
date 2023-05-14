@@ -41,8 +41,8 @@ const SERVICE_DATA = {
 };
 
 const ABOUT_DATA = {
-  HEADING: "About Me",
-  TITLE: "",
+  HEADING: "About",
+  TITLE: "About Me",
   IMAGE_URL: "images/network.png",
   DESCRIPTION: [
     "Hello, my name is Joe and I enjoy solving data-centric problems and if I have a (really good) excuse to build and use data-centric software applications as means to solve said problems, I'll probably do just that. \
