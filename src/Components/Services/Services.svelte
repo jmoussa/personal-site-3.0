@@ -8,7 +8,7 @@
 <!------------------------------------------->
 <section id="services" class="section">
   <div class="container text-center">
-    <h2 class="title">{HEADING}</h2>
+    <h1 class="title">{HEADING}</h1>
     <div class="row section-body">
       {#each SERVICE_LIST as list}
         <div class="col-md-4 service">
@@ -17,18 +17,24 @@
           <p>{list.DESCRIPTION}</p>
         </div>
       {/each}
-      <a class="vectorezy" target="_blank" href="https://www.vecteezy.com/free-vector/web">Web Vectors by Vecteezy</a>
+      <a
+        class="vectorezy"
+        target="_blank"
+        href="https://www.vecteezy.com/free-vector/web"
+        >Web Vectors by Vecteezy</a
+      >
     </div>
     <!-- <buttom class="btn btn-primary round-border main-bgcolor">
       {ALL_SERVICES}
     </buttom> -->
   </div>
 </section>
+
 <!------------------------------------------->
 <!----------------STYLE----------------------->
 
 <!------------------------------------------->
-<style lang='scss'>
+<style lang="scss">
   $accent: #d447b9;
   .vectorezy {
     padding: 0;
@@ -37,12 +43,11 @@
     text-decoration: none;
     color: inherit;
     line-height: 3.2rem;
-    -o-transition:all 0.5s;
+    -o-transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
     -webkit-font-smoothing: antialiased;
-
   }
   .vectorezy:hover {
     color: $accent;
@@ -63,9 +68,6 @@
     text-transform: uppercase;
   }
 
-  .title {
-    text-transform: uppercase;
-  }
   .service {
     p {
       text-align: justify;
@@ -102,4 +104,3 @@
     border: none;
   }
 </style>
-

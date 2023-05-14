@@ -2,21 +2,23 @@ const HEADER = "Joseph Moussa";
 const NAV_HEADER = "JM";
 
 const NAVBAR_DATA = [
-  { id: 1, url: "/", label: "Home" },
-  { id: 2, url: "#services", label: "Services" },
-  { id: 3, url: "#about-me", label: "About Me" },
+  { id: 1, url: "#", label: "Home" },
+  { id: 2, url: "#about-me", label: "About Me" },
+  { id: 3, url: "#services", label: "Services" },
   { id: 4, url: "#mystory", label: "My Story" },
   { id: 5, url: "#footer", label: "Contact" },
 ];
 const BANNER_DATA = {
-  HEADING: "Joseph Moussa",
+  GREETING: "Hello, my name is ",
+  TAGLINE: "I build software products for people.",
+  NAME: "Joe.",
   DESCRIPTION:
-    "I'm a software engineer specializing in data platforms and data-centric applications. Currently I'm focused on building data platforms at ",
+    "I'm a software engineer specializing in data platforms and data-centric applications. Currently, I'm focused on building data platforms at ",
   TWITTER_URL: "https://twitter.com/j__moussa",
   TWITTER_TAGLINE: "Add me on Twitter",
 };
 const SERVICE_DATA = {
-  HEADING: "Services",
+  HEADING: "What do I do?",
   ALL_SERVICES: "All Services",
   SERVICE_LIST: [
     {
@@ -43,7 +45,7 @@ const SERVICE_DATA = {
 const ABOUT_DATA = {
   HEADING: "About",
   TITLE: "About Me",
-  IMAGE_URL: "images/network.png",
+  IMAGE_URL: "images/banner.png",
   DESCRIPTION: [
     "Hello, my name is Joe and I enjoy solving data-centric problems and if I have a (really good) excuse to build and use data-centric software applications as means to solve said problems, I'll probably do just that. \
     My interests in software engineering materialized pretty late in my college years but I've always been interested in computers and the software that ran on them. \

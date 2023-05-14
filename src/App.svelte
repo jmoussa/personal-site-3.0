@@ -15,10 +15,13 @@
 <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.NAV_HEADER} />
 <!-- Banner -->
 <Banner bannerData={DATA.BANNER_DATA} />
-<!-- Services -->
-<Services serviceData={DATA.SERVICE_DATA} />
+
 <!-- About -->
 <About aboutData={DATA.ABOUT_DATA} />
+
+<!-- Services -->
+<Services serviceData={DATA.SERVICE_DATA} />
+
 <!-- MyStory -->
 <MyStory myWorkData={DATA.MYWORK_DATA} />
 <!-- Social Media -->
